@@ -9,7 +9,7 @@
     import {Button} from "svelte-materialify";
     import {cercaProgettoValidato, getProgettiDisponibili, downloadPDF} from "./requests";
     import {createEventDispatcher} from "svelte";
-    import Table from "../components/Table.svelte";
+    import Table from "./Table.svelte";
     import DataSelector from "./DataSelector.svelte";
 
     const dispatch = createEventDispatcher();
